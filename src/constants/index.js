@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 5, suffix: "+", label: "Years of Experience" },
+  { value: 56, suffix: "+", label: "Satisfied Clients" },
+  { value: 83, suffix: "+", label: "Completed Projects" },
+  { value: 93, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -147,39 +147,68 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review:
+      "Chinedu's mobile innovation during his final year project was ahead of its time. He turned a civil engineering algorithm into a user-friendly app that’s now a reference for many students.",
+    imgPath: "/images/person.png",
+    logoPath: "/images/person.png",
+    title: "Mobile Developer – DoE Concrete Mix Design App",
+    date: "November 2022 – July 2023",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built a Flutter-based mobile app that automated the Department of Environment (DoE) concrete mix design method for civil engineers.",
+      "Encoded calculation logic into reusable components and integrated result visualization using charts and dynamic UI updates.",
+      "Tested and validated outputs with academic supervisors, aligning with industry standards for design precision.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review:
+      "Chinedu’s contributions to AI research were inspiring. He took ownership of complex models and delivered solid results backed by deep experimentation and clean code.",
+    imgPath: "/images/person.png",
+    logoPath: "/images/person.png",
+    title: "AI Research Intern – Environmental & Structural Modeling",
+    date: "July 2022 – November 2022",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Conducted research on river ice dynamics, developing early-stage neural network models for freeze-up and flood prediction.",
+      "Simulated frazil and anchor ice formation using MATLAB and Python, focusing on hydrological data and river energy budgets.",
+      "Documented findings in a mini-research paper, contributing to ongoing efforts in infrastructure resilience modeling.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review:
+      "Chinedu impressed us with his initiative and ability to merge AI with structural engineering use cases. His backend APIs and Python models were well-documented and production-ready.",
+    imgPath: "/images/person.png",
+    logoPath: "/images/person.png",
+    title: "AI/ML Backend Developer – Research & Engineering Tools",
+    date: "December 2022 – April 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed Python-based machine learning models for predicting material strength and optimizing concrete mix design parameters.",
+      "Built backend APIs using FastAPI to serve prediction endpoints to frontend interfaces used by civil engineers.",
+      "Utilized pandas, scikit-learn, and TensorFlow for training, evaluation, and deployment of models within an engineering context.",
+    ],
+  },
+  {
+    review:
+      "Chinedu’s contribution to our AI-powered exam prep tool was transformative. His mix of data science insight and frontend engineering led to a smart, intuitive platform that students love.",
+    imgPath: "/images/person.png",
+    logoPath: "/images/person.png",
+    title: "AI-Focused Frontend Engineer – Student Exam Prep App",
+    date: "May 2023 – October 2023",
+    responsibilities: [
+      "Designed and built a sleek exam preparation app using Flutter and Firebase, featuring past questions, intelligent test generators, and study paths.",
+      "Applied basic machine learning logic to recommend study materials based on user behavior and performance.",
+      "Worked directly with students to iterate on UI/UX design, dramatically increasing engagement and retention rates.",
+    ],
+  },
+  {
+    review:
+      "Chinedu brought exceptional innovation and architectural clarity to the church management system. His expertise in full-stack development turned our vision into a seamless, scalable reality.",
+    imgPath: "/images/person.png",
+    logoPath: "/images/person.png",
+    title: "Lead Full Stack Developer – Church Management App",
+    date: "November 2023 – Present",
+    responsibilities: [
+      "Engineered a cross-platform mobile app with React Native and Expo Router, featuring admin/member dashboards, event feeds, and dynamic UI states.",
+      "Integrated PayPal for real-time payments and built multi-step contribution flows using react-hook-form, NativeWind, and react-step-builder.",
+      "Implemented modular, scalable codebase with seamless routing, bottom sheets, and API integration for user management and church operations.",
     ],
   },
 ];
@@ -201,46 +230,46 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Ngozi Okafor",
+    mentions: "@ngoziokafor",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Chinedu is a rare talent. He built our web platform from the ground up, incorporating intelligent features and a smooth UI. His skillset in both frontend and AI integration blew us away.",
+    imgPath: "/images/person.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Kwame Mensah",
+    mentions: "@kwamemensah",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "From the first meeting, Chinedu understood exactly what we needed. He designed a mobile-first solution for our startup and even integrated machine learning for personalized user experiences. Highly recommended!",
+    imgPath: "/images/person.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Fatou Diallo",
+    mentions: "@fatoudiallo",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "It was a pleasure working with Chinedu. He revamped our data dashboard, added smart analytics using Python, and ensured everything was clean, fast, and scalable. Truly a data wizard.",
+    imgPath: "/images/person.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Ibrahim Musa",
+    mentions: "@ibrahimmusa",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Chinedu brought life to our mobile app idea. His React Native skills are top-notch and his UI work is clean, modern, and intuitive. His attention to performance was a big plus.",
+    imgPath: "/images/person.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Zainab Abubakar",
+    mentions: "@zainababubakar",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "We hired Chinedu for our church app backend, and he delivered beyond expectations. He built APIs with authentication, PayPal integration, and structured everything for future scaling. Professional and dependable.",
+    imgPath: "/images/person.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Thabo Ndlovu",
+    mentions: "@thabondlovu",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Chinedu is the kind of developer every tech team dreams of. He handled both frontend and backend development with ease. His work ethic, technical depth, and friendly nature made him a standout on our project.",
+    imgPath: "/images/person.png",
   },
 ];
 
