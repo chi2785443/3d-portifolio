@@ -1,4 +1,4 @@
-# 🚀 3D Portfolio Website (2025)
+# 🚀 3D Portfolio Website 
 
 A stunning and interactive **3D Portfolio Web Application** built with **React**, **Three.js**, **TailwindCSS**, and **GSAP**. This project leverages WebGL via `@react-three/fiber` to deliver a smooth, animated, and immersive user experience—perfect for showcasing your personal brand, projects, and contact info in a modern, visually captivating way.
 
